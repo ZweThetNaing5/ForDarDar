@@ -96,8 +96,8 @@ img{
 }
 
 .typing-effect{
-    width: 50ch;
-    animation: typin 4s steps(50) infinite, effect .5s step-end infinite alternate;
+    width: 46ch;
+    animation: typin 4s steps(46) infinite, effect .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     /* border-right: 3px solid; */
