@@ -96,8 +96,8 @@ img{
 }
 
 .typing-effect{
-    width: 40ch;
-    animation: typin 4s steps(40) infinite, effect .5s step-end infinite alternate;
+    width: 50ch;
+    animation: typin 4s steps(50) infinite, effect .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     /* border-right: 3px solid; */
@@ -292,6 +292,7 @@ main .container .left{
     background: var(--color-primary);
     border-radius: var(--card-border-radius);
     color: var(--color-muted);
+    box-shadow: 0 0 0.4rem white;
 }
 
 .left .sidebar .menu-items{
