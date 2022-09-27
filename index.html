@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammer Peace's DardarBook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.0.0-web/css/all.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="left-nav">
+                <h2 class="logo">
+                    <span>D</span>
+                    <span>a</span>
+                    <span>r</span>
+                    <span>D</span>
+                    <span>a</span>
+                    <span>r</span>
+                    <span>B</span>
+                    <span>o</span>
+                    <span>o</span>
+                    <span>k</span>
+                </h2>
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="search" placeholder="Search for memories, photos">
+                </div>
+            </div>
+            <div class="right-nav">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-bell noti-nav" style="position: relative;"></i>
+                <i class="fab fa-facebook-messenger msg-toggle"></i>
+                <div class="profile-pic">
+                    <img src="images/profile.jpg">
+                </div>
+            </div>
+            <div class="messages">
+                <div class="heading">
+                    <h4>Messages</h4>
+                    <i class="fas fa-times close"></i>
+                </div>
+                
+                <!-- Search Bar -->
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="search" placeholder="Search messages" id="message-search">
+                </div>
+                
+
+                <!-- message Categories -->
+                <div class="category">
+                    <h6 class="active">Primary</h6>
+                    <h6>General</h6>
+                    <h6 class="message-requests">Requests(5)</h6>
+                </div>
+
+                <!-- Message -->
+                <div class="message">
+                    <div class="profile-pic">
+                        <img src="images/ma-shune-pp.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>Shun Lae NY</h5>
+                        <p class="text-muted">sent a sticker</p>
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <div class="message">
+                    <div class="profile-pic">
+                        <img src="images/khin-eiei-pp.jpg">
+                        <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Khin Ei Ei Soe</h5>
+                        <p class="text-bold text-muted">You sent an attachment</p>
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <div class="message">
+                    <div class="profile-pic">
+                        <img src="images/myo-thinzar-pp.jpg">
+                        <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Myo Thinzar Kyaw</h5>
+                        <p class="text-muted">Hello</p>
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <div class="message">
+                    <div class="profile-pic">
+                        <img src="images/marian-pp.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>Marian</h5>
+                        <p class="text-bold text-muted">sent a photo</p>
+                    </div>
+                </div>
+
+                <!-- Message -->
+                <div class="message">
+                    <div class="profile-pic">
+                        <img src="images/htunohn.jpg">
+                        <div class="active"></div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Htun Ohn</h5>
+                        <p class="text-muted">3 new messages</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of messages -->
+
+            <!--------------------Notification Pop-up-------------------- -->
+            <div class="notification-popup">
+
+                <div class="CloseIcon">
+                    <i class="fas fa-times closeNoti"></i>
+                </div>
+                <div class="noti-popup-info">
+                    <div class="profile-pic">
+                        <img src="images/pp2.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Wang Yibo</b> accepted your friend request
+                        <small class="text-muted">5 minutes ago</small>
+                    </div>
+                </div>
+
+                <div class="noti-popup-info">
+                    <div class="profile-pic">
+                        <img src="images/khin-eiei-pp.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Khin Ei Ei Soe</b> shared a post
+                        <small class="text-muted">10 minutes ago</small>
+                    </div>
+                </div>
+
+                <div class="noti-popup-info">
+                    <div class="profile-pic">
+                        <img src="images/myo-thinzar-pp.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Myo Thinzar</b> likes your post
+                        <small class="text-muted">3 hours ago</small>
+                    </div>
+                </div>
+
+                <div class="noti-popup-info">
+                    <div class="profile-pic">
+                        <img src="images/ma-shune-pp.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Shun</b> <i class="fas fa-heart" style="color: #ee3e90; font-size: 0.9rem;"></i> reacted your post
+                        <small class="text-muted">35 minutes ago</small>
+                    </div>
+                </div>
+
+                <div class="noti-popup-info">
+                    <div class="profile-pic">
+                        <img src="images/marian-pp.jpg">
+                    </div>
+                    <div class="notification-body">
+                        <b>Marian</b> replied your comment
+                        <small class="text-muted">4 hours ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="left">
+                <div class="pp">
+                    <div class="profile-pic">
+                        <img src="images/profile.jpg">
+                    </div>
+                    <h4>Grammar Peace</h4>
+                </div>
+                <div class="sidebar" id="menu-bar">
+                    <a href="bgAnimation.html" class="menu-items active">
+                        <span><i class="fas fa-user-friends"></i></span><h3>Friends</h3>
+                    </a>
+        
+                    <a href="bgAnimation2.html" class="menu-items">
+                        <span><i class="fas fa-clock"></i></span><h3>Memories</h3>
+                    </a>
+        
+                    <a class="menu-items" id="notifications">
+                        <span><i class="fas fa-bell"><small class="notification-count">9+</small></i></span><h3>Notifications</h3>
+                        
+                    </a>
+                    <!-- End of Notifications Popup---------------------------------- -->
+                    <a class="menu-items" id="message-notifications">
+                        <span><i class="fab fa-facebook-messenger"><small class="notification-count"> 9+</small></i></span><h3>Messages</h3>
+                    </a>
+        
+                    <a href="bgAnimation3.html" class="menu-items">
+                        <span><i class="fas fa-calendar-check"></i></span><h3>Events</h3>
+                    </a>
+        
+                    <a href="bgAnimation4.html"  class="menu-items">
+                        <span><i class="fas fa-users"></i></span><h3>Groups</h3>
+                    </a>
+        
+                    <a href="bgAnimation5.html" class="menu-items">
+                        <span><i class="far fa-bookmark"></i></span><h3>Saved</h3>
+                    </a>
+        
+                    <a href="bgAnimation6.html" class="menu-items">
+                        <span><i class="fas fa-flag"></i></span><h3>Pages</h3>
+                    </a>
+                </div>
+                <span class="seemore"><i class="fas fa-angle-down"></i><p text-muted>See More</p><span>
+            </div>
+
+            <div class="middle">
+                <div class="feed-nav">
+                    <i class="fas fa-home active"></i>
+                    <i class="fas fa-play-circle"></i>
+                    <i class="fas fa-users"></i>
+                    <i class="fas fa-gamepad"></i>
+                </div>
+
+                <div class="stories">
+                    <div class="story">
+                        <i class="fas fa-plus-circle" style="color: var(--color-light); opacity: 0.9;"></i>
+                        <p class="name">Your Story</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="images/ma-shune-pp.jpg">
+                        </div>
+                        <p class="name">Shun</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="images/marian-pp.jpg">
+                        </div>
+                        <p class="name">Marian</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="images/myo-thinzar-pp.jpg">
+                        </div>
+                        <p class="name">Myo Thinzar</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="images/khin-eiei-pp.jpg">
+                        </div>
+                        <p class="name">Ei Soe</p>
+                    </div>
+                </div>
+
+                <div class="create">
+                    <div class="create-post">
+                        <div class="profile-pic">
+                            <img src="images/profile.jpg">
+                        </div>
+                        <div class="mind">
+                            <input type="text" placeholder="What's on your mind, Grammar?" id="create-post">
+                        </div>
+                    </div>
+                    <hr class="create-line">
+
+                    <div class="features">
+                        <span><i class="fas fa-video" style="color: #db1111;"></i>Live</span>
+                        <span><i class="fas fa-photo-video" style="color: #0ec52d;"></i>Photo</span>
+                        <span><i class="far fa-grin" style="color: #eff313;"></i>Feeling/activity</span>
+                    </div>
+                </div>
+
+                <!-- ------Feeds------------------ -->
+                <div class="feeds">
+                    <!-- feed 1 starts -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-pic">
+                                    <img src="images/profile.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Grammar Peace</h3>
+                                    <div class="text-muted date"><i class="fas fa-earth"></i>Min Hla, Magwe, 30 minutes ago</div>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="caption">
+                            <p class="typing-effect">Today Memory at Monastery
+                            </p>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/dadafeed2.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="far fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/myo-thinzar-pp.jpg"></span>
+                            <span><img src="images/ma-shune-pp.jpg"></span>
+                            <span><img src="images/marian-pp.jpg"></span>
+                            <p>Liked by <b>Marian</b> and <b>342 others</b></p>
+                        </div>
+                        <div class="text-muted date">View all 9 comments</div>
+                        <b class="acc-name">Myo Thinzar</b><span class="text-muted"> So cute <i class="fas fa-heart" style="color: #ee3e90"></i></span>
+                    </div>
+                    <!-- feeed 1 end -->
+
+                    <!-- feed 2 starts -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-pic">
+                                    <img src="images/profile.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Grammar Peace</h3>
+                                    <div class="text-muted date"><i class="fas fa-earth"></i>Min Hla, Magwe, 45 minutes ago</div>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="caption">
+                            <p class="typing-effect">Happy Birthday to me! Sweet 20 
+                            </p>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/bd.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="far fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/myo-thinzar-pp.jpg"></span>
+                            <span><img src="images/khin-eiei-pp.jpg"></span>
+                            <span><img src="images/ma-shune-pp.jpg"></span>
+                            <p>Liked by <b>Shun</b> and <b>543 others</b></p>
+                        </div>
+                        <div class="text-muted date">View all 14 comments</div>
+                        <b class="acc-name">Marian</b><span class="text-muted"> Happy Birthday Wish you all the best! <i class="fas fa-heart" style="color: #ee3e90"></i></span>
+                    </div>
+                    <!-- feeed 2 end -->
+
+                    <!-- feed 3 starts -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-pic">
+                                    <img src="images/khin-eiei-pp.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Khin Ei Ei Soe</h3>
+                                    <div class="text-muted date"><i class="fas fa-earth"></i>Mandalay, 2 hours ago</div>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="caption">
+                            <p class="typing-effect">Happy Birthday my friend
+                            </p>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/wish1.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="far fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/myo-thinzar-pp.jpg"></span>
+                            <span><img src="images/ma-shune-pp.jpg"></span>
+                            <span><img src="images/khin-eiei-pp.jpg"></span>
+                            <p>Liked by <b>Marian</b> and <b>237 others</b></p>
+                        </div>
+                        <div class="text-muted date">View all 18 comments</div>
+                        <b class="acc-name">Xiao Zhan</b><span class="text-muted"> Wish you all the best <i class="fas fa-heart" style="color: #ee3e90"></i></span>
+                    </div>
+                    <!-- feeed 3 end -->
+
+                    <!-- feed 4 starts -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-pic">
+                                    <img src="images/myo-thinzar-pp.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Myo Thinzar Kyaw</h3>
+                                    <div class="text-muted"><i class="fas fa-earth"></i>Mandalay, 3 hours ago</div>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+
+                        <div class="caption">
+                            <p class="typing-effect">Happy Birthday Wish You All the Best
+                            </p>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/wish2.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="far fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/pers1.jpg"></span>
+                            <span><img src="images/marian-pp.jpg"></span>
+                            <span><img src="images/myo-thinzar-pp.jpg"></span>
+                            <p>Liked by <b>Khni Ei Ei Soe</b> and <b>197 others</b></p>
+                        </div>
+                        <p class="comments text-muted">View all 32 comments</p>
+            <b class="acc-name">Wang Yibo</b><span class="text-muted"> HBD <i class="fas fa-heart" style="color: #ee3e90"></i></span>
+                    </div>
+                    <!-- feeed 4 end -->
+
+                    <!-- feed 5 starts -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-pic">
+                                    <img src="images/marian-pp.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Marian</h3>
+                                    <div class="text-muted date"><i class="fas fa-earth"></i>Mandalay, 5 hours ago</div>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="caption">
+                            <p class="typing-effect">Today is Grammar's day, HBD
+                            </p>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/wish3.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="far fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/myo-thinzar-pp.jpg"></span>
+                            <span><img src="images/ma-shune-pp.jpg"></span>
+                            <span><img src="images/marian-pp.jpg"></span>
+                            <p>Liked by <b>Myo Thinzar Kyaw</b> and <b>249 others</b></p>
+                        </div>
+                        <div class="text-muted date">View all 10 comments</div>
+                        <b class="acc-name">Chanyeol</b><span class="text-muted"> Happy Birthday Thadar <i class="fas fa-heart" style="color: #ee3e90"></i></span>
+                    </div>
+                    <!-- feeed 5 end -->
+
+                    <!-- feed 6 starts -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-pic">
+                                    <img src="images/ma-shune-pp.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Shun Lae NY</h3>
+                                    <div class="text-muted date"><i class="fas fa-earth"></i>Mandalay, 7 hours ago</div>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="caption">
+                            <p class="typing-effect">Happy Birthday Nyi Ma Lay
+                            </p>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/dada4.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="far fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/myo-thinzar-pp.jpg"></span>
+                            <span><img src="images/khin-eiei-pp.jpg"></span>
+                            <span><img src="images/marian-pp.jpg"></span>
+                            <p>Liked by <b>Marian</b> and <b>579 others</b></p>
+                        </div>
+                        <div class="text-muted date">View all 34 comments</div>
+                        <b class="acc-name">Grammar</b><span class="text-muted"> Thanks <i class="fas fa-heart" style="color: #ee3e90"></i> Ma Shun</span>
+                    </div>
+                    <!-- feed 6 ends -->
+
+                    <!-- feed 7 starts -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-pic">
+                                    <img src="images/profile.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Grammar Peace</h3>
+                                    <div class="text-muted date"><i class="fas fa-earth"></i>Min Hla, 2 days ago</div>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="caption">
+                            <p class="typing-effect">Early Moring Walk with my cousins
+                            </p>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/walk.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="far fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/myo-thinzar-pp.jpg"></span>
+                            <span><img src="images/khin-eiei-pp.jpg"></span>
+                            <span><img src="images/htunohn.jpg"></span>
+                            <p>Liked by <b>Htun Ohn</b> and <b>98 others</b></p>
+                        </div>
+                        <div class="text-muted date">View all 3 comments</div>
+                        <b class="acc-name">Htun Ohn</b><span class="text-muted"> Tomorrow, don't be late</span>
+                    </div>
+                    <!-- feed 7 ends -->
+
+                    <!-- feed 7 starts -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-pic">
+                                    <img src="images/profile.jpg">
+                                </div>
+                                <div class="info">
+                                    <h3>Grammar Peace</h3>
+                                    <div class="text-muted date"><i class="fas fa-earth"></i>Min Hla, 2 days ago</div>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="caption">
+                            <p class="typing-effect">STRONG & SAVAGE
+                            </p>
+                        </div>
+
+                        <div class="photo">
+                            <img src="images/walk2.jpg">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-comment"></i></span>
+                                <span><i class="far fa-paper-plane"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="far fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="images/ma-shune-pp.jpg"></span>
+                            <span><img src="images/khin-eiei-pp.jpg"></span>
+                            <span><img src="images/htunohn.jpg"></span>
+                            <p>Liked by <b>Htun Ohn</b> and <b>174 others</b></p>
+                        </div>
+                        <div class="text-muted date">View all 5 comments</div>
+                        <b class="acc-name">Maria</b><span class="text-muted"> Chit Sayr Kay </span>
+                    </div>
+                    <!-- feed 7 ends -->
+                </div>
+            </div>
+
+            <!-- Right -->
+
+            <div class="right">
+                
+
+                <div class="section">
+                    <p class="text-bold">Sponsored</p>
+                    <div class="ads">
+                        <img src="images/ads2.jpg">
+                        Xiaomi 12 Ultrawide Angle Camrea
+                        <p class="text-muted">xiaomi.com</p>
+                    </div>
+                </div>
+
+                <hr class="sector">
+
+                <div class="section">
+                    <p class="text-bold">Birthdays</p>
+                    <div class="bd">
+                        <i class="fas fa-gift"></i>
+                        <p><b>Lee Jae Wook</b>'s birthday is today</p>
+                    </div>
+                </div>
+
+                <hr class="sector">
+
+                <!-- Friend Requests -->
+                <div class="friend-requests">
+                    <div class="req-head">
+                        <p class="text-muted">Requests</p>
+                        <p>See all</p>
+                    </div>
+
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="images/raja.jpg">
+                            </div>
+                            <div>
+                                <h5>Krv Raja Subramanian</h5>
+                                <p class="text-muted">
+                                114 mutual friends
+                            </p>
+                            </div>
+                        </div>
+
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="sector">
+
+                <div class="online-list">
+                    <div class="head">
+                        <p class="text-muted">Contacts</p>
+                        <i class="fas fa-ellipsis-h text-muted"></i>
+                    </div>
+                    
+                    <div class="online">
+                        <div class="profile-pic">
+                            <img src="images/ma-shune-pp.jpg">
+                        </div>
+                        <p class="text-bold">Shun Lae NY</p>
+                    </div>
+                    <div class="online">
+                        <div class="profile-pic">
+                            <img src="images/myo-thinzar-pp.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <p class="text-bold">Myo Thinzar Kyaw</p>
+                    </div>
+                    <div class="online">
+                        <div class="profile-pic">
+                            <img src="images/khin-eiei-pp.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <p class="text-bold">Khin Ei Ei Soe</p>
+                    </div>
+                    <div class="online">
+                        <div class="profile-pic">
+                            <img src="images/marian-pp.jpg">
+                        </div>
+                        <p class="text-bold">Marian</p>
+                    </div>
+                    <div class="online">
+                        <div class="profile-pic">
+                            <img src="images/htunohn.jpg">
+                        </div>
+                        <p class="text-bold">Htun Ohn</p>
+                    </div>
+                    <!-- <div class="online">
+                        <div class="profile-pic">
+                            <img src="images/robotian.jpeg">
+                            <div class="active"></div>
+                        </div>
+                        <p class="text-bold">ZweTN</p>
+                    </div>
+                    <div class="online">
+                        <div class="profile-pic">
+                            <img src="images/profile.jpg">
+                        </div>
+                        <p class="text-bold">Zwe Thet Naing</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
