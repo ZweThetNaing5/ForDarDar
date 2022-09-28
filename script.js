@@ -13,6 +13,8 @@ const messageClose = document.querySelector('.close');
 const messageToggle = document.querySelector('.msg-toggle');
 const messageField = document.querySelector('.messages');
 const notiClose = document.querySelector('.closeNoti');
+const plusIcon = document.querySelector('.menu-switch');
+const menuBar = document.querySelector('#menu-bar');
 
 //-------------------------side bar ------------------------
 //remove active class from all menu items
@@ -63,6 +65,16 @@ notinav.addEventListener('click', () =>{
     }
     else{
         notiPop.style.display = 'none';
+    }
+})
+
+plusIcon.addEventListener('click', () =>{
+    if(menuBar.style.display != 'block')
+    {   
+        menuBar.style.display = 'block';
+    }
+    else{
+        menuBar.style.display = 'none';
     }
 })
 
