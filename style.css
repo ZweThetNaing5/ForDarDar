@@ -293,6 +293,7 @@ main .container .left{
     border-radius: var(--card-border-radius);
     color: var(--color-muted);
     box-shadow: 0 0 0.4rem white;
+    display: none;
 }
 
 .left .sidebar .menu-items{
